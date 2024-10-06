@@ -1,0 +1,140 @@
+.root {
+  
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #ffddc2;
+
+}
+.espaço-login {
+  position: absolute;
+  left: 76px;
+  top: 211px;
+  width: 1278px;
+  height: 715px;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.rectangle1 {
+  position: absolute;
+  left: -5px;
+  top: -2px;
+  width: 18cm;
+  height: fit-content;
+  background-color: #f3c178;
+}
+.lOGIN {
+  color: #fe5e41;
+  font-size: 48px;
+  font-family: Mochiy Pop One, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 882px;  
+  top: 27px;
+  width: 194px;
+  height: 69px;
+  flex-direction: column;
+}
+.rectangle2 {
+  position: absolute;
+  left: 748px;
+  top: 194px;
+  width: 505px;
+  height: 55px;
+  border-radius: 30px;
+  background-color: #f3c178;
+}
+.rectangle3 {
+  position: absolute;
+  left: 748px;
+  top: 323px;
+  width: 505px;
+  height: 55px;
+  border-radius: 30px;
+  background-color: #f3c178;
+}
+.email {
+  color: #000;
+  font-size: 34px;
+  font-family: Mitr, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 759px;
+  top: 141px;
+  width: 374px;
+  height: 32px;
+  flex-direction: column;
+}
+.senha {
+  color: #000;
+  font-size: 34px;
+  font-family: Mitr, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 759px;
+  top: 270px;
+  width: 374px;
+  height: 32px;
+  flex-direction: column;
+}
+.criar-conta {
+  color: #000;
+  font-size: 28px;
+  font-family: Mitr, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-decoration: underline;
+  position: absolute;
+  left: 759px;
+  top: 391px;
+  width: 374px;
+  height: 32px;
+  flex-direction: column;
+}
+
+.tomatoRemovebgPreview1 {
+  position: absolute;
+  left: -79px;
+  top: 38px;
+  width: 787px;
+  height: 666px;
+  background-image:/* webpackIgnore: true */ url('assets/tomatoRemovebgPreview1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logo {
+  position: absolute;
+  left: 76px;
+  top: 37px;
+  width: 423px;
+  height: 134px;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.site {
+  color: #fe5e41;
+  font-size: 48px;
+  font-family: Mochiy Pop One, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 104px;
+  top: 23px;
+  width: 319px;
+  height: 32px;
+  flex-direction: column;
+}
+.emoji-tomato {
+  position: absolute;
+  left: 10px;
+  top: 17px;
+  width: 80px;
+  height: 84.6016px;
+  overflow: visible;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+}
