@@ -1,0 +1,56 @@
+body {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    background-color: #ffddc2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fe5e41;
+    margin-bottom: 30px;
+  }
+  
+  .logo img {
+    width: 220px;
+  }
+  
+  .profile {
+    text-align: center;
+  }
+  
+  .profile-icon {
+    width: 150px;
+    margin-bottom: 10px;
+  }
+  
+  .email {
+    font-size: 22px;
+    color: #0b0500;
+    margin-bottom: 25px;
+  }
+  
+  .logout-btn {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #e75a3b;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .logout-btn:hover {
+    background-color: #d14932;
+  }
+  

@@ -5,6 +5,7 @@ import './index.css';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
+import Home from './home/home.js';
 import Login from './login/login.js';
 import Cadastro from './cadastro/cadastro.js';
 import Geral from './geral/geral.js';
@@ -17,7 +18,8 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-          <Route path='/'        element={<Login />} />
+          <Route path='/'             element={<Home />} />
+          <Route path='/login'        element={<Login />} />
           <Route path='/perfil'       element={<Perfil/>} />
           <Route path='/cadastro'     element={<Cadastro />} /> 
           <Route path='/geral'        element={<Geral/>} />

@@ -1,0 +1,29 @@
+.action-btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 13px;
+    border: none;
+    background-color: #fe5e41;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .action-btn:hover {
+    background-color: #d14932;
+  }
+  
+  .login-box a {
+    display: block;
+    font-size: 15px;
+    color: #0b0500;
+    text-decoration: none;
+    margin-top: 14px;
+  }
+  
+  .login-box a:hover {
+    text-decoration: underline;
+  }
+  
